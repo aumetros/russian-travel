@@ -5,3 +5,22 @@
   justify-content: space-between;
   align-items: top;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 85px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+  flex-direction: column;
+ }
+}
+
+@media screen and (max-width: 525px) {
+  .footer {
+    padding: 64px 0 24px 16px;    
+    min-height: 310px;
+  }
+}

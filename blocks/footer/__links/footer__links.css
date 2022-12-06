@@ -8,3 +8,15 @@
 .footer__links li {
   display: inline;
 }
+
+@media screen and (max-width: 720px) {
+  .footer__links {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .footer__links li {
+    display: list-item;
+  }
+}

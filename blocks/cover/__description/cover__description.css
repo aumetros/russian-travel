@@ -1,6 +1,13 @@
 .cover__description {
+  min-width: 520px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 320px) {
+  .cover__description {
+    min-width: 288px;
+  }
 }
