@@ -6,25 +6,16 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: 0.2px;
-}
-
-@media screen and (max-width: 950px) {
-  .intro__list {
-    margin: 0 24px;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .intro__list {
-    max-width: 720px;
-    margin: 0 24px;
+    max-width: 720px;    
   }
 }
 
 @media screen and (max-width: 322px) {
   .intro__list {
-    max-width: 288px;
-    letter-spacing: 0.1px;
+    max-width: 288px;  
   }
 }

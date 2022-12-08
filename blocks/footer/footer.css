@@ -1,14 +1,22 @@
 .footer {
-  padding: 92px 48px 24px;
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 92px 0 24px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: top;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  } 
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    padding: 85px 24px 24px;
+    max-width: 720px;
+    padding-top: 85px;
   }
 }
 
@@ -20,7 +28,8 @@
 
 @media screen and (max-width: 525px) {
   .footer {
-    padding: 64px 0 24px 16px;
+    max-width: 288px;
+    padding-top: 64px;
     min-height: 310px;
   }
 }

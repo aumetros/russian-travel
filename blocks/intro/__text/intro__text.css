@@ -6,23 +6,15 @@
   margin: 40px 0 33px;
 }
 
-@media screen and (max-width: 950px) {
-  .intro__text {
-    margin: 40px 24px 33px; 
-  }
-}
-
 @media screen and (max-width: 768px) {
   .intro__text {
-    max-width: 720px;
-    margin: 40px 24px 33px;
+    max-width: 720px;    
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__text {
     max-width: 288px;
-    font-size: 16px;
-    margin: 40px auto 34px;
+    margin-bottom: 34px;  
   }
 }
