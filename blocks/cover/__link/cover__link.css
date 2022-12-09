@@ -5,10 +5,15 @@
   color: #FFFFFF;
   text-decoration: none;
   background-image: url(../../../images/cover-trains.jpg);
-  background-size: cover;  /** применил для растяжения фона блока при его переполнении **/
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   aspect-ratio: 1184/740;
 }
+
+/** применил cover для растяжения фона блока при его переполнении.
+ данное решение предполагает, что при большом объеме текст не будет выходить за рамки фонового изображения
+ и блок сохранит свою целостность, а внешние расстояния между изображением и соседними элементами сохранятся.**/
 
 .cover__link::after {
   content: "";
